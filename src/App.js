@@ -19,9 +19,9 @@ export default function App() {
         <footer className="App-footer">
            <small>
             This project was coded by {""}
-            <a href="https://www.linkedin.com/in/suzanne-paterson-778b492b9/" target="_blank">Suzanne Paterson</a>, is open-sourced on {""} 
-            <a href="https://github.com/suzanne301/dictionary-project" target="_blank">GitHub</a> and hosted on {""}
-            <a href="https://dictionary-paterson.netlify.app/" target="_blank">Netlify</a>.
+            <a href="https://www.linkedin.com/in/suzanne-paterson-778b492b9/">Suzanne Paterson</a>, is open-sourced on {""} 
+            <a href="https://github.com/suzanne301/dictionary-project">GitHub</a> and hosted on {""}
+            <a href="https://dictionary-paterson.netlify.app/">Netlify</a>.
             </small>
         </footer>
       </div>
