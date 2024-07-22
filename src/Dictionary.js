@@ -10,7 +10,6 @@ export default function Dictionary() {
 
 
   function handleResponse(response) {
-    console.log(response.data[0]);
     setResults(response.data[0]);
   }
 
@@ -19,8 +18,7 @@ export default function Dictionary() {
 
 // documentation: https://dictionaryapi.dev/
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
-    axios.get(apiUrl).then(handleResponse);
-    
+    axios.get(apiUrl).then(handleResponse); 
   }
   
   function handleKeywordChange(event) {
