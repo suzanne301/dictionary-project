@@ -1,3 +1,7 @@
 .Dictionary {
-  text-align: center;
+  text-align: left;
+}
+
+.Dictionary h3 {
+  text-transform: capitalize;
 }
