@@ -1,7 +1,26 @@
-.Dictionary {
-  text-align: left;
+.Dictionary h1 {
+  font-size: 18px;
+  margin-bottom: 18px;
 }
 
-.Dictionary h3 {
-  text-transform: capitalize;
+.Dictionary section {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0px 10px 20px rgba(0 0 0 / 0.1);
+  margin: 20px 0;
+}
+
+.Dictionary input {
+  width: 100%;
+  padding: 6px 4px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #333;
+}
+
+.Dictionary .hint {
+  font-size: 11px;
+  margin-top: 6px;
+  opacity: .7;
 }
